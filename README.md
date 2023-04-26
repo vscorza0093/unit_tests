@@ -50,5 +50,5 @@ Learning unit tests in Python, using pytest library
 
         pip install pytest-cov
 
-* We have to know all the functionaties embraced by the test coverage
+* We have to know all the functionalities embraced by the test coverage
 
