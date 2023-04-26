@@ -7,11 +7,14 @@ Learning unit tests in Python, using pytest library
 
 * The main goal of this type of test is not to verify the work state at a specific moment, but to guarantee that nothing has broken and the application is fully working while it expand.
 
+#### Installation
 
         pip install pytest
     
 
 * We don't have to import any library to run pytest
+
+#### Usage
 
         pytest unit_test.py
 
@@ -30,11 +33,11 @@ Learning unit tests in Python, using pytest library
 
 * Its a software development technique that treats about innovating faster and reducing waste. Coding the solutions throug the test development to understand the necessities of the final application
 
-#### * Better comprehension of functionality -> Starting by tests and not by the implementation to better understand the application and avoiding errors
+* Better comprehension of functionality -> Starting by tests and not by the implementation to better understand the application and avoiding errors
 
-#### * Great system cover in a mutable environment -> Tests before code, thats the way to avoid great errors and handle with big system changes
+* Great system cover in a mutable environment -> Tests before code, thats the way to avoid great errors and handle with big system changes
 
-#### * Reliable to build up -> When working with TDD, all errors will be detected and corrected
+* Reliable to build up -> When working with TDD, all errors will be detected and corrected
 
 
 * TDD is based on repetition cicle called Red-Green-Refactor, that needed to be followed
@@ -48,7 +51,19 @@ Learning unit tests in Python, using pytest library
 
 ## Code covarage
 
+* Its like a extension of pytest, a plugin. 
+
+#### Installation
+
         pip install pytest-cov
 
-* We have to know all the functionalities embraced by the test coverage
+#### Usage
+
+        pytest --cov=myproj tests/
+        
+Subprocess support: you can fork or run stuff in a subprocess and will get covered without any fuss.
+
+Xdist support: you can use all of pytest-xdist’s features and still get coverage.
+
+Consistent pytest behavior. If you run coverage run -m pytest you will have slightly different sys.path (CWD will be in it, unlike when running pytest).
 
