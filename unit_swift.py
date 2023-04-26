@@ -7,10 +7,6 @@ user_in_z = 1
 
 coordinates_list = []
 
-class WordWraper():
-    def __init__(self):
-
-
 
 def get_coordinates():
     for coordX in range(0, user_in_x + 1):
