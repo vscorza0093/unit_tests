@@ -30,11 +30,11 @@ Learning unit tests in Python, using pytest library
 
 * Its a software development technique that treats about innovating faster and reducing waste. Coding the solutions throug the test development to understand the necessities of the final application
 
-####* Better comprehension of functionality -> Starting by tests and not by the implementation to better understand the application and avoiding errors
+#### * Better comprehension of functionality -> Starting by tests and not by the implementation to better understand the application and avoiding errors
 
-####* Great system cover in a mutable environment -> Tests before code, thats the way to avoid great errors and handle with big system changes
+#### * Great system cover in a mutable environment -> Tests before code, thats the way to avoid great errors and handle with big system changes
 
-####* Reliable to build up -> When working with TDD, all errors will be detected and corrected
+#### * Reliable to build up -> When working with TDD, all errors will be detected and corrected
 
 
 * TDD is based on repetition cicle called Red-Green-Refactor, that needed to be followed
